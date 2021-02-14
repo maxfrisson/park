@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Праздничное агентство Регины Королёвой</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <ul class="header__menu" id="menu">
+        <li class="header__menu-item">
+          <a href="#about" class="header__menu-link">О НАС</a>
+        </li>
+        <li class="header__menu-item">
+          <a href="#services" class="header__menu-link">УСЛУГИ</a>
+        </li>
+        <li class="header__menu-item">
+          <a href="#testimonials" class="header__menu-link">ОТЗЫВЫ</a>
+        </li>
+        <li class="header__menu-item header__logo">
+          <a href="#"> <img src="img/logo2.png" class="header__logo-img" /></a>
+        </li>
+        <li class="header__menu-item">
+          <a href="#gallery" class="header__menu-link">ГАЛЕРЕЯ</a>
+        </li>
+        <li class="header__menu-item">
+          <a href="#blog" class="header__menu-link">БЛОГ</a>
+        </li>
+        <li class="header__menu-item">
+          <a href="#contacts" class="header__menu-link">КОНТАКТЫ</a>
+        </li>
+      </ul>
+      <div class="header__menu-toggle" id="toggle" onclick="toggle()"></div>
+    </header>
+
+    <main class="main">
+      <section class="main__slider swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="img/4.jpg" class="swiper-slide-img" />
+            <div class="main__slide-content">
+              <h2 class="swiper-slide-text">
+                Здравствуйте! <br />
+                Меня зовут Регина Королёва.
+              </h2>
+              <h3 class="swiper-slide-subtext">
+                Я и моя команда с удовольствием организуем и проведём
+                <span>Ваш праздник</span>
+                <span>Вашу свадьбу</span>
+                <span>Ваш юбилей</span>
+                <span>Ваш корпоратив</span>
+                <span>Ваш банкет</span>
+                <span>Ваш выпускной</span>.
+              </h3>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="img/5.jpg" class="swiper-slide-img" />
+            <div class="main__slide-content">
+              <h2 class="swiper-slide-text">А я Дима -</h2>
+              <h3 class="swiper-slide-subtext">
+                звукорежиссёр и диджей
+                <span>Вашего праздника</span>
+                <span>Вашей свадьбы</span>
+                <span>Вашего юбилея</span>
+                <span>Вашего корпоратива</span>
+                <span>Вашего банкета</span>
+                <span>Вашего выпускного</span>.
+              </h3>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="img/bg1.jpg" class="swiper-slide-img" />
+            <div class="main__slide-content">
+              <h2 class="swiper-slide-text">Привет! Я Полина -</h2>
+              <h3 class="swiper-slide-subtext">
+                с радостью внесу позитив и разнообразие в
+                <span>Ваш праздник</span>
+                <span>Вашу свадьбу</span>
+                <span>Ваш юбилей</span>
+                <span>Ваш корпоратив</span>
+                <span>Ваш банкет</span>
+                <span>Ваш выпускной</span>.
+              </h3>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </section>
+
+      <section class="main__about" id="about">
+        <div class="main__about-container container">
+          <h2 class="main__about-title">Мы создаём - Вы празднуете!</h2>
+          <div class="main__about-subtitle">Легко, ненавязчиво, профессионально!</div>
+          <div class="main__about-text">
+            Поможем организовать Ваш праздничный вечер, составлю интересный и оригинальный сценарий,
+            подберу классную, разнообразную развлекательную программу, а веселые конкурсы, викторины
+            и сюрпризы для Ваших гостей оживят и разнообразят праздник. <br />
+            Моя главная задача, чтобы Ваше мероприятие запомнилось на всю жизнь и чтобы Вы получили
+            незабываемые радостные и светлые эмоции!!!
+          </div>
+        </div>
+      </section>
+
+      <section class="main__services" id="services">
+        <div class="main__services-container">
+          <div class="main__services-title">Наши услуги</div>
+          <div class="main__services-content">
+            <div class="main__services-list">
+              <div class="main__services-item">
+                <a href="" class="main__services-item-hover">
+                  <div class="main__services-item-title">Свадьбы</div>
+                  <div class="main__services-item-content">
+                    <img class="main__services-item-image" src="img/services-wedding.jpg" alt="" />
+                  </div>
+                </a>
+              </div>
+              <div class="main__services-item">
+                <a href="" class="main__services-item-hover">
+                  <div class="main__services-item-title">Юбилеи</div>
+                  <div class="main__services-item-content">
+                    <img class="main__services-item-image" src="img/services-birthday.jpg" alt="" />
+                  </div>
+                </a>
+              </div>
+              <div class="main__services-item">
+                <a href="" class="main__services-item-hover">
+                  <div class="main__services-item-title">Корпоративы</div>
+                  <div class="main__services-item-content">
+                    <img class="main__services-item-image" src="img/services-corp.jpg" alt="" />
+                  </div>
+                </a>
+              </div>
+              <div class="main__services-item">
+                <a href="" class="main__services-item-hover">
+                  <div class="main__services-item-title">Выпускные</div>
+                  <div class="main__services-item-content">
+                    <img class="main__services-item-image" src="img/services-vypusk.jpg" alt="" />
+                  </div>
+                </a>
+              </div>
+              <div class="main__services-item">
+                <a href="" class="main__services-item-hover">
+                  <div class="main__services-item-title">Детские праздники</div>
+                  <div class="main__services-item-content">
+                    <img class="main__services-item-image" src="img/services-bubbles.jpg" alt="" />
+                  </div>
+                </a>
+              </div>
+              <div class="main__services-item">
+                <a href="" class="main__services-item-hover">
+                  <div class="main__services-item-title">Услуги диджея</div>
+                  <div class="main__services-item-content">
+                    <img class="main__services-item-image" src="img/services-disco.jpeg" alt="" />
+                  </div>
+                </a>
+              </div>
+              <div class="main__services-item">
+                <a href="" class="main__services-item-hover">
+                  <div class="main__services-item-title">Украшение шарами</div>
+                  <div class="main__services-item-content">
+                    <img class="main__services-item-image" src="img/services-airballs.jpg" alt="" />
+                  </div>
+                </a>
+              </div>
+              <div class="main__services-item">
+                <a href="" class="main__services-item-hover">
+                  <div class="main__services-item-title">Декор цветами</div>
+                  <div class="main__services-item-content">
+                    <img
+                      class="main__services-item-image"
+                      src="img/services-floristic.jpg"
+                      alt=""
+                    />
+                  </div>
+                </a>
+              </div>
+              <div class="main__services-item">
+                <a href="" class="main__services-item-hover">
+                  <div class="main__services-item-title">Аквагрим</div>
+                  <div class="main__services-item-content">
+                    <img class="main__services-item-image" src="img/services-aquagrim.jpg" alt="" />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="main__testimonials swiper-container" id="testimonials">
+        <div class="main__testimonials-list swiper-wrapper">
+          <div class="main__testimonials-item swiper-slide">
+            <div class="main__testimonials-text">
+              <q
+                >Дорогая Регина, спасибо вам огромное, за наш праздник!) Было и трогательно, и очень
+                весело! Ко мне гости подходили и говорили, что вы лучшая кого они видидели на
+                свадьбах!)) А Dj отдельное спасибо! Может в нужный момент подобрать музыку которая
+                подходит именно сейчас!)) Спасибо вам от всей нашей большой семьи!))) 👍👍👍👍👍</q
+              >
+            </div>
+            <a href="https://vk.com/id165958755" class="main__testimonials-user">
+              <div class="main__testimonials-user-photo">
+                <img src="img/testimonials1.jpg" alt="" class="main__testimonials-user-img" />
+              </div>
+              <div class="main__testimonials-user-name">Алина Пиязенко</div>
+            </a>
+          </div>
+          <div class="main__testimonials-item swiper-slide">
+            <div class="main__testimonials-text">
+              <q
+                >Наша свадьба запомнилась трогательностью очень личных моментов, задором гостей,
+                мобильностью сценария, нетипичностью проведения этого празднества, тактичностью ,
+                возможностями воплощения многих мечт и то же время ограниченностью бюджета. И это
+                все наш организатор - Регина! СПАСИБО!!!</q
+              >
+            </div>
+            <a href="https://vk.com/id171156840" class="main__testimonials-user">
+              <div class="main__testimonials-user-photo">
+                <img src="img/testimonials2.jpg" alt="" class="main__testimonials-user-img" />
+              </div>
+              <div class="main__testimonials-user-name">Ирина Сидорова</div>
+            </a>
+          </div>
+          <div class="main__testimonials-item swiper-slide">
+            <div class="main__testimonials-text">
+              <q
+                >Спасибо Вам большое , Регина. Гости были в восторге. Наша свадьба нам запомнится на
+                долго. Удачи вам в вашей работе .</q
+              >
+            </div>
+            <a href="https://vk.com/ilya.dolgov" class="main__testimonials-user">
+              <div class="main__testimonials-user-photo">
+                <img src="img/testimonials3.jpg" alt="" class="main__testimonials-user-img" />
+              </div>
+              <div class="main__testimonials-user-name">Илья Долгов</div>
+            </a>
+          </div>
+          <div class="main__testimonials-item swiper-slide">
+            <div class="main__testimonials-text">
+              <q
+                >Регина и Дмитрий, хотим поблагодарить Вас за весомый вклад в наше торжество в виде
+                отличного настроения и заразительной энергетики! Отзывы у всех присутствовавших
+                сугубо положительные, можно смело рекомендовать Вас тем, кому ещё только предстоит
+                данное мероприятие:)</q
+              >
+            </div>
+            <a href="https://vk.com/id21552732" class="main__testimonials-user">
+              <div class="main__testimonials-user-photo">
+                <img src="img/testimonials4.jpg" alt="" class="main__testimonials-user-img" />
+              </div>
+              <div class="main__testimonials-user-name">Сергей Пузанов</div>
+            </a>
+          </div>
+          <div class="main__testimonials-item swiper-slide">
+            <div class="main__testimonials-text">
+              <q
+                >От нашей созданной семьи огромное спасибо за предоставленный нам и нашим гостям
+                праздник и весёлое настроение. Мы все были в восторге!</q
+              >
+            </div>
+            <a href="https://vk.com/id22271896" class="main__testimonials-user">
+              <div class="main__testimonials-user-photo">
+                <img src="img/testimonials5.jpg" alt="" class="main__testimonials-user-img" />
+              </div>
+              <div class="main__testimonials-user-name">Глеб Семеев</div>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="main__gallery" id="gallery">
+        <div class="main__gallery-title">Галерея</div>
+        <div class="main__gallery-list">
+          <div class="main__gallery-item">
+            <a href="#" class="main__gallery-link"
+              ><img src="img/gallery/gallery1.jpg" alt="" class="main__gallery-img"
+            /></a>
+          </div>
+          <div class="main__gallery-item">
+            <a href="#" class="main__gallery-link"
+              ><img src="img/gallery/gallery2.jpg" alt="" class="main__gallery-img"
+            /></a>
+          </div>
+          <div class="main__gallery-item">
+            <a href="#" class="main__gallery-link"
+              ><img src="img/gallery/gallery3.jpg" alt="" class="main__gallery-img"
+            /></a>
+          </div>
+          <div class="main__gallery-item">
+            <a href="#" class="main__gallery-link"
+              ><img src="img/gallery/gallery4.jpg" alt="" class="main__gallery-img"
+            /></a>
+          </div>
+          <div class="main__gallery-item">
+            <a href="#" class="main__gallery-link"
+              ><img src="img/gallery/gallery5.jpg" alt="" class="main__gallery-img"
+            /></a>
+          </div>
+          <div class="main__gallery-item">
+            <a href="#" class="main__gallery-link"
+              ><img src="img/gallery/gallery6.jpg" alt="" class="main__gallery-img"
+            /></a>
+          </div>
+          <div class="main__gallery-item">
+            <a href="#" class="main__gallery-link"
+              ><img src="img/gallery/gallery7.jpg" alt="" class="main__gallery-img"
+            /></a>
+          </div>
+          <div class="main__gallery-item">
+            <a href="#" class="main__gallery-link"
+              ><img src="img/gallery/gallery8.jpg" alt="" class="main__gallery-img"
+            /></a>
+          </div>
+          <div class="main__gallery-item">
+            <a href="#" class="main__gallery-link"
+              ><img src="img/gallery/gallery9.jpg" alt="" class="main__gallery-img"
+            /></a>
+          </div>
+          <div class="main__gallery-item">
+            <a href="#" class="main__gallery-link"
+              ><img src="img/gallery/gallery10.jpg" alt="" class="main__gallery-img"
+            /></a>
+          </div>
+          <div class="main__gallery-item">
+            <a href="#" class="main__gallery-link"
+              ><img src="img/gallery/gallery11.jpg" alt="" class="main__gallery-img"
+            /></a>
+          </div>
+          <div class="main__gallery-item">
+            <a href="#" class="main__gallery-link"
+              ><img src="img/gallery/gallery14.jpg" alt="" class="main__gallery-img"
+            /></a>
+          </div>
+        </div>
+      </section>
+
+      <section class="main__blog" id="blog">
+        <div class="main__blog-container">
+          <div class="main__blog-title">Наш блог</div>
+          <div class="main__blog-list">
+            <div class="main__blog-item">
+              <div class="main__blog-img">
+                <img src="img/blog1.jpg" alt="" />
+              </div>
+              <div class="main__blog-content">
+                <div class="main__blog-item-date">9 июл 2018 в 23:50</div>
+                <div class="main__blog-item-title">Первый в Туле свадебный рекорд!</div>
+                <div class="main__blog-item-text">
+                  Одновременно на регистрации присутствовало 10 пар!!!! Супер эмоции💝.<br />
+                  Мои отдельные благодарности команде: соведущему - Андрею Солобаеву, организатору
+                  -@bolkhinaa, чудесной вокалистке -@vashapauline...<br />
+                  Всегда Ваша #РегинаКоролева
+                </div>
+                <div class="main__blog-item-btn">
+                  <a href="" class="main__blog-item-link">Подробнее</a>
+                </div>
+              </div>
+            </div>
+            <div class="main__blog-item">
+              <div class="main__blog-img">
+                <img src="img/blog2.jpg" alt="" />
+              </div>
+              <div class="main__blog-content">
+                <div class="main__blog-item-date">9 июл 2018 в 23:00</div>
+                <div class="main__blog-item-title">Первый свадебный квест в Туле!</div>
+                <div class="main__blog-item-text">
+                  Урааааааа! Мы сделали это!!!!!<br />
+                  Сезон 1.0. Кто молодцы? Мы молодцы! Наши молодые пары - Большие молодцы!!!!❤ Все
+                  партнеры нашего города #Тула - молодцы.<br />
+                  Всегда Ваша #РегинаКоролева
+                </div>
+                <div class="main__blog-item-btn">
+                  <a href="" class="main__blog-item-link">Подробнее</a>
+                </div>
+              </div>
+            </div>
+            <div class="main__blog-list-btn">
+              <a href="" class="main__blog-list-link">Показать всё</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <section class="footer__contacts" id="contacts">
+        <div class="footer__contacts-container">
+          <div class="footer__contacts-title">Контакты</div>
+          <div class="footer__contacts-info">
+            Появились вопросы? Звоните прямо сейчас <br />
+            <a href="tel:+79103525050" class="footer__contacts-info-phone">+7 (910) 352-50-00</a>
+            <br />
+            или оставьте заявку и я обязательно постараюсь с Вами связаться.
+          </div>
+          <div class="footer__contacts-form">
+            <form action="" class="footer__contacts-form-body">
+              <div class="footer__contacts-item">
+                <input type="text" class="footer__contacts-input" required />
+                <span>Ваше имя</span>
+              </div>
+              <div class="footer__contacts-item">
+                <input type="text" class="footer__contacts-input" required />
+                <span>Email</span>
+              </div>
+              <div class="footer__contacts-item">
+                <input type="text" class="footer__contacts-input" required />
+                <span>Ваше телефон</span>
+              </div>
+              <div class="footer__contacts-item">
+                <input type="submit" class="footer__contacts-btn" value="Оставить заявку" />
+              </div>
+            </form>
+          </div>
+          <div class="footer__contacts-social">
+            <div class="footer__contacts-social-title">Мы в социальных сетях:</div>
+            <div class="footer-contacts-social-list">
+              <div class="footer__contacts-social-item">
+                <a href="https://vk.com/akademiy_prazdnika" class="footer__contacts-social-link">
+                  <svg
+                    version="1.1"
+                    id="Capa_1"
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    x="0px"
+                    y="0px"
+                    width="60px"
+                    height="60px"
+                    viewBox="0 0 548.358 548.358"
+                    style="enable-background: new 0 0 548.358 548.358"
+                    xml:space="preserve"
+                  >
+                    <g>
+                      <path
+                        d="M545.451,400.298c-0.664-1.431-1.283-2.618-1.858-3.569c-9.514-17.135-27.695-38.167-54.532-63.102l-0.567-0.571
+                 l-0.284-0.28l-0.287-0.287h-0.288c-12.18-11.611-19.893-19.418-23.123-23.415c-5.91-7.614-7.234-15.321-4.004-23.13
+                 c2.282-5.9,10.854-18.36,25.696-37.397c7.807-10.089,13.99-18.175,18.556-24.267c32.931-43.78,47.208-71.756,42.828-83.939
+                 l-1.701-2.847c-1.143-1.714-4.093-3.282-8.846-4.712c-4.764-1.427-10.853-1.663-18.278-0.712l-82.224,0.568
+                 c-1.332-0.472-3.234-0.428-5.712,0.144c-2.475,0.572-3.713,0.859-3.713,0.859l-1.431,0.715l-1.136,0.859
+                 c-0.952,0.568-1.999,1.567-3.142,2.995c-1.137,1.423-2.088,3.093-2.848,4.996c-8.952,23.031-19.13,44.444-30.553,64.238
+                 c-7.043,11.803-13.511,22.032-19.418,30.693c-5.899,8.658-10.848,15.037-14.842,19.126c-4,4.093-7.61,7.372-10.852,9.849
+                 c-3.237,2.478-5.708,3.525-7.419,3.142c-1.715-0.383-3.33-0.763-4.859-1.143c-2.663-1.714-4.805-4.045-6.42-6.995
+                 c-1.622-2.95-2.714-6.663-3.285-11.136c-0.568-4.476-0.904-8.326-1-11.563c-0.089-3.233-0.048-7.806,0.145-13.706
+                 c0.198-5.903,0.287-9.897,0.287-11.991c0-7.234,0.141-15.085,0.424-23.555c0.288-8.47,0.521-15.181,0.716-20.125
+                 c0.194-4.949,0.284-10.185,0.284-15.705s-0.336-9.849-1-12.991c-0.656-3.138-1.663-6.184-2.99-9.137
+                 c-1.335-2.95-3.289-5.232-5.853-6.852c-2.569-1.618-5.763-2.902-9.564-3.856c-10.089-2.283-22.936-3.518-38.547-3.71
+                 c-35.401-0.38-58.148,1.906-68.236,6.855c-3.997,2.091-7.614,4.948-10.848,8.562c-3.427,4.189-3.905,6.475-1.431,6.851
+                 c11.422,1.711,19.508,5.804,24.267,12.275l1.715,3.429c1.334,2.474,2.666,6.854,3.999,13.134c1.331,6.28,2.19,13.227,2.568,20.837
+                 c0.95,13.897,0.95,25.793,0,35.689c-0.953,9.9-1.853,17.607-2.712,23.127c-0.859,5.52-2.143,9.993-3.855,13.418
+                 c-1.715,3.426-2.856,5.52-3.428,6.28c-0.571,0.76-1.047,1.239-1.425,1.427c-2.474,0.948-5.047,1.431-7.71,1.431
+                 c-2.667,0-5.901-1.334-9.707-4c-3.805-2.666-7.754-6.328-11.847-10.992c-4.093-4.665-8.709-11.184-13.85-19.558
+                 c-5.137-8.374-10.467-18.271-15.987-29.691l-4.567-8.282c-2.855-5.328-6.755-13.086-11.704-23.267
+                 c-4.952-10.185-9.329-20.037-13.134-29.554c-1.521-3.997-3.806-7.04-6.851-9.134l-1.429-0.859c-0.95-0.76-2.475-1.567-4.567-2.427
+                 c-2.095-0.859-4.281-1.475-6.567-1.854l-78.229,0.568c-7.994,0-13.418,1.811-16.274,5.428l-1.143,1.711
+                 C0.288,140.146,0,141.668,0,143.763c0,2.094,0.571,4.664,1.714,7.707c11.42,26.84,23.839,52.725,37.257,77.659
+                 c13.418,24.934,25.078,45.019,34.973,60.237c9.897,15.229,19.985,29.602,30.264,43.112c10.279,13.515,17.083,22.176,20.412,25.981
+                 c3.333,3.812,5.951,6.662,7.854,8.565l7.139,6.851c4.568,4.569,11.276,10.041,20.127,16.416
+                 c8.853,6.379,18.654,12.659,29.408,18.85c10.756,6.181,23.269,11.225,37.546,15.126c14.275,3.905,28.169,5.472,41.684,4.716h32.834
+                 c6.659-0.575,11.704-2.669,15.133-6.283l1.136-1.431c0.764-1.136,1.479-2.901,2.139-5.276c0.668-2.379,1-5,1-7.851
+                 c-0.195-8.183,0.428-15.558,1.852-22.124c1.423-6.564,3.045-11.513,4.859-14.846c1.813-3.33,3.859-6.14,6.136-8.418
+                 c2.282-2.283,3.908-3.666,4.862-4.142c0.948-0.479,1.705-0.804,2.276-0.999c4.568-1.522,9.944-0.048,16.136,4.429
+                 c6.187,4.473,11.99,9.996,17.418,16.56c5.425,6.57,11.943,13.941,19.555,22.124c7.617,8.186,14.277,14.271,19.985,18.274
+                 l5.708,3.426c3.812,2.286,8.761,4.38,14.853,6.283c6.081,1.902,11.409,2.378,15.984,1.427l73.087-1.14
+                 c7.229,0,12.854-1.197,16.844-3.572c3.998-2.379,6.373-5,7.139-7.851c0.764-2.854,0.805-6.092,0.145-9.712
+                 C546.782,404.25,546.115,401.725,545.451,400.298z"
+                      />
+                    </g>
+                    <g></g>
+                    <g></g>
+                    <g></g>
+                    <g></g>
+                    <g></g>
+                    <g></g>
+                    <g></g>
+                    <g></g>
+                    <g></g>
+                    <g></g>
+                    <g></g>
+                    <g></g>
+                    <g></g>
+                    <g></g>
+                    <g></g>
+                  </svg>
+                </a>
+              </div>
+              <div class="footer__contacts-social-item">
+                <a
+                  href="https://www.instagram.com/showreginakoroleva/"
+                  class="footer__contacts-social-link"
+                >
+                  <svg
+                    version="1.1"
+                    id="Layer_1"
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    x="0px"
+                    y="0px"
+                    width="60px"
+                    height="60px"
+                    viewBox="0 0 169.063 169.063"
+                    style="enable-background: new 0 0 169.063 169.063"
+                    xml:space="preserve"
+                  >
+                    <g>
+                      <path
+                        d="M122.406,0H46.654C20.929,0,0,20.93,0,46.655v75.752c0,25.726,20.929,46.655,46.654,46.655h75.752
+      c25.727,0,46.656-20.93,46.656-46.655V46.655C169.063,20.93,148.133,0,122.406,0z M154.063,122.407
+      c0,17.455-14.201,31.655-31.656,31.655H46.654C29.2,154.063,15,139.862,15,122.407V46.655C15,29.201,29.2,15,46.654,15h75.752
+      c17.455,0,31.656,14.201,31.656,31.655V122.407z"
+                      />
+                      <path
+                        d="M84.531,40.97c-24.021,0-43.563,19.542-43.563,43.563c0,24.02,19.542,43.561,43.563,43.561s43.563-19.541,43.563-43.561
+      C128.094,60.512,108.552,40.97,84.531,40.97z M84.531,113.093c-15.749,0-28.563-12.812-28.563-28.561
+      c0-15.75,12.813-28.563,28.563-28.563s28.563,12.813,28.563,28.563C113.094,100.281,100.28,113.093,84.531,113.093z"
+                      />
+                      <path
+                        d="M129.921,28.251c-2.89,0-5.729,1.17-7.77,3.22c-2.051,2.04-3.23,4.88-3.23,7.78c0,2.891,1.18,5.73,3.23,7.78
+      c2.04,2.04,4.88,3.22,7.77,3.22c2.9,0,5.73-1.18,7.78-3.22c2.05-2.05,3.22-4.89,3.22-7.78c0-2.9-1.17-5.74-3.22-7.78
+      C135.661,29.421,132.821,28.251,129.921,28.251z"
+                      />
+                    </g>
+                    <g></g>
+                    <g></g>
+                    <g></g>
+                    <g></g>
+                    <g></g>
+                    <g></g>
+                    <g></g>
+                    <g></g>
+                    <g></g>
+                    <g></g>
+                    <g></g>
+                    <g></g>
+                    <g></g>
+                    <g></g>
+                    <g></g>
+                  </svg>
+                </a>
+              </div>
+              <div class="footer__contacts-social-item">
+                <a href="" class="footer__contacts-social-link">
+                  <svg
+                    version="1.1"
+                    id="Capa_1"
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    x="0px"
+                    y="0px"
+                    width="60px"
+                    height="60px"
+                    viewBox="0 0 512 512"
+                    style="enable-background: new 0 0 512 512"
+                    xml:space="preserve"
+                  >
+                    <g>
+                      <g>
+                        <path
+                          d="M288,176v-64c0-17.664,14.336-32,32-32h32V0h-64c-53.024,0-96,42.976-96,96v80h-64v80h64v256h96V256h64l32-80H288z"
+                        />
+                      </g>
+                    </g>
+                    <g></g>
+                    <g></g>
+                    <g></g>
+                    <g></g>
+                    <g></g>
+                    <g></g>
+                    <g></g>
+                    <g></g>
+                    <g></g>
+                    <g></g>
+                    <g></g>
+                    <g></g>
+                    <g></g>
+                    <g></g>
+                    <g></g>
+                  </svg>
+                </a>
+              </div>
+              <div class="footer__contacts-social-item">
+                <a href="" class="footer__contacts-social-link">
+                  <svg
+                    version="1.1"
+                    id="Capa_1"
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    x="0px"
+                    y="0px"
+                    width="60px"
+                    height="60px"
+                    viewBox="0 0 511.627 511.627"
+                    style="enable-background: new 0 0 511.627 511.627"
+                    xml:space="preserve"
+                  >
+                    <g>
+                      <g>
+                        <path
+                          d="M459.954,264.376c-2.471-11.233-7.949-20.653-16.416-28.264c-8.474-7.611-18.227-12.085-29.27-13.418
+        c-35.02-3.806-87.837-5.708-158.457-5.708c-70.618,0-123.341,1.903-158.174,5.708c-11.227,1.333-21.029,5.807-29.407,13.418
+        c-8.376,7.614-13.896,17.035-16.562,28.264c-4.948,22.083-7.423,55.391-7.423,99.931c0,45.299,2.475,78.61,7.423,99.93
+        c2.478,11.225,7.951,20.653,16.421,28.261c8.47,7.614,18.225,11.991,29.263,13.134c35.026,3.997,87.847,5.996,158.461,5.996
+        c70.609,0,123.44-1.999,158.453-5.996c11.043-1.143,20.748-5.52,29.126-13.134c8.377-7.607,13.897-17.036,16.56-28.261
+        c4.948-22.083,7.426-55.391,7.426-99.93C467.377,319.007,464.899,285.695,459.954,264.376z M165.025,293.218h-30.549v162.45
+        h-28.549v-162.45h-29.98v-26.837h89.079V293.218z M242.11,455.668H216.7v-15.421c-10.278,11.615-19.989,17.419-29.125,17.419
+        c-8.754,0-14.275-3.524-16.556-10.564c-1.521-4.568-2.286-11.519-2.286-20.844V314.627h25.41v103.924
+        c0,6.088,0.096,9.421,0.288,9.993c0.571,3.997,2.568,5.995,5.996,5.995c5.138,0,10.566-3.997,16.274-11.991V314.627h25.41V455.668
+        z M339.183,413.411c0,13.894-0.855,23.417-2.56,28.558c-3.244,10.462-9.996,15.697-20.273,15.697
+        c-9.137,0-17.986-5.235-26.556-15.697v13.702h-25.406v-189.29h25.406v61.955c8.189-10.273,17.036-15.413,26.556-15.413
+        c10.277,0,17.029,5.331,20.273,15.988c1.704,4.948,2.56,14.369,2.56,28.264V413.411z M435.685,390.003h-51.104v24.839
+        c0,13.134,4.374,19.697,13.131,19.697c6.279,0,10.089-3.422,11.42-10.28c0.376-1.902,0.571-7.706,0.571-17.412h25.981v3.71
+        c0,9.329-0.195,14.846-0.572,16.563c-0.567,5.133-2.56,10.273-5.995,15.413c-6.852,10.089-17.139,15.133-30.841,15.133
+        c-13.127,0-23.407-4.855-30.833-14.558c-5.517-7.043-8.275-18.083-8.275-33.12v-49.396c0-15.036,2.662-26.076,7.987-33.119
+        c7.427-9.705,17.61-14.558,30.557-14.558c12.755,0,22.85,4.853,30.263,14.558c5.146,7.043,7.71,18.083,7.71,33.119V390.003
+        L435.685,390.003z"
+                        />
+                        <path
+                          d="M302.634,336.043c-4.38,0-8.658,2.101-12.847,6.283v85.934c4.188,4.186,8.467,6.279,12.847,6.279
+        c7.419,0,11.14-6.372,11.14-19.13v-60.236C313.773,342.418,310.061,336.043,302.634,336.043z"
+                        />
+                        <path
+                          d="M397.428,336.043c-8.565,0-12.847,6.475-12.847,19.41v13.134h25.693v-13.134
+        C410.274,342.511,405.99,336.043,397.428,336.043z"
+                        />
+                        <path
+                          d="M148.473,113.917v77.375h28.549v-77.375L211.563,0h-29.121l-19.41,75.089L142.759,0h-30.262
+        c5.33,15.99,11.516,33.785,18.559,53.391C140.003,79.656,145.805,99.835,148.473,113.917z"
+                        />
+                        <path
+                          d="M249.82,193.291c13.134,0,23.219-4.854,30.262-14.561c5.332-7.043,7.994-18.274,7.994-33.689V95.075
+        c0-15.225-2.669-26.363-7.994-33.406c-7.043-9.707-17.128-14.561-30.262-14.561c-12.756,0-22.75,4.854-29.98,14.561
+        c-5.327,7.043-7.992,18.181-7.992,33.406v49.965c0,15.225,2.662,26.457,7.992,33.689
+        C227.073,188.437,237.063,193.291,249.82,193.291z M237.541,89.935c0-13.134,4.093-19.701,12.279-19.701
+        s12.275,6.567,12.275,19.701v59.955c0,13.328-4.089,19.985-12.275,19.985s-12.279-6.661-12.279-19.985V89.935z"
+                        />
+                        <path
+                          d="M328.328,193.291c9.523,0,19.328-5.901,29.413-17.705v15.703h25.981V48.822h-25.981v108.777
+        c-5.712,8.186-11.133,12.275-16.279,12.275c-3.429,0-5.428-2.093-5.996-6.28c-0.191-0.381-0.287-3.715-0.287-9.994V48.822h-25.981
+        v112.492c0,9.705,0.767,16.84,2.286,21.411C313.961,189.768,319.574,193.291,328.328,193.291z"
+                        />
+                      </g>
+                    </g>
+                    <g></g>
+                    <g></g>
+                    <g></g>
+                    <g></g>
+                    <g></g>
+                    <g></g>
+                    <g></g>
+                    <g></g>
+                    <g></g>
+                    <g></g>
+                    <g></g>
+                    <g></g>
+                    <g></g>
+                    <g></g>
+                    <g></g>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="footer__contacts-madeby">
+            Made by
+            <a
+              href="https://maxfrisson.github.io/portfolio/index-ru.html"
+              class="footer__contacts-madeby-link"
+              >Max Frisson</a
+            >
+          </div>
+        </div>
+      </section>
+    </footer>
+
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
